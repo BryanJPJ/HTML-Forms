@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/assets/styles.css">
+</head>
+<body>
+    <h1>GeeksforGeeks Survey Form</h1>
+   <form>
+    <div id="User-data">
+         <div id="form-name">
+                 <label for="uname">Nombre</label>
+                 <input type="text" id="uname" name="name" placeholder="Enter your name">
+            </div>
+         <div id="form-email">
+                 <label for="uemail">Email</label>
+                 <input type="text" id="uemail" name="email" placeholder="Enter your email">
+         </div>
+         <div id="label-age">
+                <label for="uage">Age</label>
+                 <input type="text" id="uage" name="age" placeholder="Enter your age">
+         </div>
+    </div>
+    <div id="User-options">
+         <div id="form-options">
+                <label for="uoptions">Which option best describes you?</label>
+                <select id="uoptions" name="list" autofocus>
+                  <option value="value-1">Student</option>
+                  <option value="value-2">Cineast</option>
+                  <option value="value-3">Performer</option>
+                  <option value="value-4">Futbolist</option>
+                  <option value="value-5">Scientist</option>
+                </select>
+          </div>
+          <label id="tittleForm-radio"> You recommend GeeksforGeeks to a friend?</label>
+        <div id="form-radio">
+            <input type="radio" name="option" value="yes" id="radio1"><label>Yes</label>
+            <input type="radio" name="option" value="no" id="radio2"><label>No</label>
+            <input type="radio" name="option" value="maybe" id="radio3"><label>Maybe</label>
+        </div>
+        <label> Languages and Frameworks known (Check all that aply)</label> 
+        <div id="form-checkbox">
+            <input type="checkbox" name="language" value="C" class="valueCheck"><label for="C">C</label>
+            <input type="checkbox" name="language" value="C + +" class="valueCheck"><label for="C++">C + +</label>
+            <input type="checkbox" name="language" value="C#" class="valueCheck"><label for="C#">C#</label>
+            <input type="checkbox" name="language" value="Java" class="valueCheck"><label for="Java">Java</label>
+            <input type="checkbox" name="language" value="Python" class="valueCheck"><label for="Python">Python</label>
+            <input type="checkbox" name="language" value="JavaScript" class="valueCheck"><label for="Javascript">JavaScript</label>
+            <input type="checkbox" name="language" value="React" class="valueCheck"><label for="React">React</label>
+            <input type="checkbox" name="language" value="Angular" class="valueCheck"><label for="Angular">Angular</label>
+            <input type="checkbox" name="language" value="Django" class="valueCheck"><label for="Django">Django</label>
+            <input type="checkbox" name="language" value="Spring" class="valueCheck"><label for="Spring">Spring</label>
+        </div>
+         <div id="form-textarea">
+        <label for="mensaje" class="colocar-mensaje">Any comments or suggestions</label>
+            <textarea name="introducir-mensaje" id="mensaje" ></textarea>
+        </label>
+        </div>
+        <button type="button" name="enviar_formulario" id="enviar" onclick= "displayData()">Enviar</button>
+    </div>
+   </form>
+   <script src="./src/assets/app.js"></script>
+</body>
+</html>
