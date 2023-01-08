@@ -1,3 +1,4 @@
 # HTML-CSS-CHALLENGE
 DEFINIR UN FORMULARIO EN HTML QUE SE ASEMEJE A LA IMAGEN:
-![osoimagen3](https://user-images.githubusercontent.com/117900512/211210411-6628f8e7-aa85-4f99-bb49-1bb95be08d44.jpg)
+
+![imagenejemplo](https://user-images.githubusercontent.com/117900512/211210516-937abfbb-f8d7-44a1-aed6-cbb8c4cfa4af.jpg)
